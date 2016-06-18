@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'djoser',
     'rest_framework.authtoken',
 
-    'cause',
+    'cash_sharing',
 ]
 
 REST_FRAMEWORK = {
@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'volunteering.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'volunteer',
+        'NAME': 'cash_sharing',
     }
 }
 
@@ -115,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = 'cause.User'
+AUTH_USER_MODEL = 'cash_sharing.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
